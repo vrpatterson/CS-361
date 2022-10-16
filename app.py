@@ -6,4 +6,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return redirect('home')
+    return "anything"

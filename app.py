@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return redirect("/home")
+    return redirect("/home.j2")

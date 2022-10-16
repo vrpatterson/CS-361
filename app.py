@@ -5,5 +5,5 @@ import os
 app = Flask(__name__)
 
 @app.route("/")
-def index():
-    return "anything"
+def home():
+    return redirect('home')

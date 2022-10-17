@@ -1,0 +1,41 @@
+.images {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+body {
+    background-color: #E9F6FA;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+#searchBar {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faqimg {
+    /* border-radius: 50%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#search {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

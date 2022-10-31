@@ -17,13 +17,13 @@ Microservice for my partner's project
 ## How to post new fortune history
 - navigate to test-requests.http
 - add this to file and include data:
--   POST http://localhost:3000/fortuneHistory HTTP/1.1
-- content-type: application/json
-- 
-- {
--     "userId": "<enter userId here>",
--     "fortuneId": "<enter fortuneId here>",
--     "fortuneText": "<enter fortuneText here>"
-- }
+  POST http://localhost:3000/fortuneHistory HTTP/1.1
+content-type: application/json
+
+{
+    "userId": "<enter userId here>",
+    "fortuneId": "<enter fortuneId here>",
+    "fortuneText": "<enter fortuneText here>"
+}
 
 ## UML Diagram

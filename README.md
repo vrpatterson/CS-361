@@ -19,11 +19,12 @@ Microservice for my partner's project
 - add this to file and include data:<br />
   POST http://localhost:3000/fortuneHistory HTTP/1.1<br />
 content-type: application/json<br />
-<br />
-{<br />
-    "userId": "<enter userId here>",<br />
-    "fortuneId": "<enter fortuneId here>",<br />
-    "fortuneText": "<enter fortuneText here>"<br />
-}<br />
+        {<br />
+        "userId": "<enter userId here>",<br />
+        "fortuneId": "<enter fortuneId here>",<br />
+       "fortuneText": "<enter fortuneText here>"<br />
+    }<br />
 
 ## UML Diagram
+[Sequence diagram.pdf](https://github.com/vrpatterson/CS-361/files/9905539/Sequence.diagram.pdf)
+

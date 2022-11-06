@@ -1,0 +1,25 @@
+### Post new fortune history
+# POST http://localhost:3000/fortuneHistory HTTP/1.1
+# content-type: application/json
+
+# {
+#     "userId": "634cc4547bb37264e5fe7bc5",
+#     "fortuneId": "634cc4547bb37264e5fe1111",
+#     "fortuneText": "This is fortunate"
+# }
+
+POST http://localhost:3000/fortuneHistory HTTP/1.1
+content-type: application/json
+
+{
+    "userId": "1234567",
+    "fortuneId": "67890",
+    "fortuneText": "FORTUNE TEXT"
+}
+
+
+### Retreive fortune by id
+GET http://localhost:3000/fortuneHistory?userId=1234567 HTTP/1.1
+
+
+
